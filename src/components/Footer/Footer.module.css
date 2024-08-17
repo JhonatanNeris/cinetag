@@ -1,0 +1,14 @@
+.footerBg{
+    background-color: var(--black);
+    margin-top: 2rem;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: .8rem 0;
+}
+.footer h2 {
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--white);
+}

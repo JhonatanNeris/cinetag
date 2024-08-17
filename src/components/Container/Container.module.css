@@ -1,0 +1,21 @@
+.container{
+    text-align: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    /* min-height: 90vh; */
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    /* padding: 1rem; */
+}
+
+@media( max-width: 1440px){
+    .container{
+        padding: 0 2rem;
+    }
+
+}
+
+.size{
+    min-height: 90vh;
+}
